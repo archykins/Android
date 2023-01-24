@@ -5,51 +5,69 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:contentDescription="circles"
+        android:src="@drawable/people"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/img"
-        android:contentDescription="circles"
-        tools:ignore="MissingConstraints" />
+
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="338dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="97px"
         android:layout_marginLeft="137px"
+        android:layout_marginRight="97px"
+        android:fontFamily="@font/poppinsmedium"
         android:text="Welcome back!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.33"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.298" />
+        app:layout_constraintVertical_bias="0.303" />
 
     <Button
-        android:elevation="30dp"
         android:id="@+id/button"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="214dp"
         android:layout_height="57dp"
         android:layout_margin="100dp"
         android:backgroundTint="#FFD615"
+        android:elevation="30dp"
         android:text="Sign in"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.542" />
+        app:layout_constraintVertical_bias="0.838" />
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Введите текст"
+        android:layout_width="292dp"
+        android:layout_height="46dp"
+        android:LineHeight="21dp"
 
+        android:text="Enter your name"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="358dp" />
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="500dp" />
 
 
+    //
 </android.support.constraint.ConstraintLayout>
