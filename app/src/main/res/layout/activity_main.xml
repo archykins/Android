@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
 
         android:contentDescription="circles"
-        android:src="@drawable/people"
+        android:src="@drawable/circle"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
@@ -20,10 +20,11 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/img"
+        android:src="@drawable/people"
 
         tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="338dp" />
+        tools:layout_editor_absoluteY="338dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
